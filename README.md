@@ -92,6 +92,7 @@
 </details>
 
 
+<details open>
 <summary><strong>More Live Activity</strong></summary>
 
 <p align="center">
@@ -99,17 +100,13 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RichardBijuJohn&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RichardBijuJohn&theme=github_dark" alt="Top Languages" />
 </p>
 
-
-
+</details>
 
 > “Build. Learn. Improve. Repeat.”
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=00D4FF&center=true&vCenter=true&width=700&lines=Thanks+for+visiting+my+profile!+⭐" alt="Closing message" />
-</p>
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=00D4FF&center=true&vCenter=true&width=700&lines=Feel+free+to+explore,+connect,+and+build+something+amazing+together" alt="Closing message" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:0f172a&height=120&section=footer&text=Thanks%20for%20visiting!%20Explore%2C%20connect%2C%20and%20build%20together.&fontSize=22&fontColor=ffffff&animation=twinkling" alt="Closing banner" />
 </p>

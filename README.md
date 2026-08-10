@@ -4,9 +4,11 @@
 
 I am a passionate developer interested in building projects, learning new technologies, and improving my coding skills.
 
-* 🔭 I’m currently working on web development and software projects
-* 🌱 I’m currently learning React, Node.js, and database technologies
-* 📫 How to reach me: GitHub
+* 💻 Interested in Web Development & Software Engineering
+* 🎨 Exploring UI/UX Design
+* 🌱 Currently improving my skills in React, Node.js, Java & Databases
+* 🛠️ Enjoy building projects that solve real-world problems
+* 🤝 Open to learning, collaborating, and contributing to open-source projects
 
 ---
 
@@ -29,3 +31,9 @@ I am a passionate developer interested in building projects, learning new techno
 ### 🤝 Connect with Me
 
 * GitHub: @RichardBijuJohn
+* Linkedin: https://in.linkedin.com/in/richard-biju-john-1b07763aa
+
+
+### ⚡ "Build. Learn. Improve. Repeat."
+
+* Thanks for visiting my profile! ⭐

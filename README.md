@@ -14,7 +14,7 @@
   <a href="https://github.com/RichardBijuJohn"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
   <a href="https://in.linkedin.com/in/richard-biju-john-1b07763aa"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
   <a href="mailto:richardjohnn1100@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://leetcode.com/RichardBijuJohn"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
+  <a href="https://leetcode.com/u/RICHARDJ_OHN/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
   <img src="https://komarev.com/ghpvc/?username=RichardBijuJohn&style=for-the-badge&color=brightgreen" alt="Profile views" />
 </p>
 

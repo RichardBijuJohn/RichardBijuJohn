@@ -96,11 +96,7 @@
 <summary><strong>More Live Activity</strong></summary>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RichardBijuJohn&theme=github-dark&bg_color=0d1117&color=58a6ff&line=00d4ff&point=ff6b6b&hide_border=true" alt="GitHub Activity Graph" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RichardBijuJohn&theme=github_dark" alt="Top Languages" />
+  <img src="./activity-graph.svg" alt="Daily GitHub activity area graph" />
 </p>
 
 </details>

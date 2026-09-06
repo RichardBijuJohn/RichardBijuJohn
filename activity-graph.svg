@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" role="img" aria-labelledby="title desc">
   <title id="title">Daily GitHub activity</title>
-  <desc id="desc">An area graph of daily GitHub activity from 2026-08-06 through 2026-09-05.</desc>
+  <desc id="desc">An area graph of daily GitHub activity from 2026-08-07 through 2026-09-06.</desc>
   <defs>
     <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0" stop-color="#38bdf8" stop-opacity=".78"/>
@@ -11,11 +11,11 @@
     <g stroke="#30363d" stroke-width="1">
     <path d="M56 42H860M56 89H860M56 136H860M56 183H860M56 230H860"/>
   </g>
-  <path d="M56.0 230.0 L82.8 230.0 L109.6 230.0 L136.4 136.0 L163.2 42.0 L190.0 230.0 L216.8 183.0 L243.6 230.0 L270.4 230.0 L297.2 183.0 L324.0 230.0 L350.8 230.0 L377.6 230.0 L404.4 230.0 L431.2 230.0 L458.0 230.0 L484.8 230.0 L511.6 230.0 L538.4 230.0 L565.2 230.0 L592.0 230.0 L618.8 230.0 L645.6 230.0 L672.4 230.0 L699.2 230.0 L726.0 230.0 L752.8 89.0 L779.6 230.0 L806.4 230.0 L833.2 230.0 L860.0 230.0 L860 230 L56 230 Z" fill="url(#fill)"/>
-    <path d="M56.0 230.0 L82.8 230.0 L109.6 230.0 L136.4 136.0 L163.2 42.0 L190.0 230.0 L216.8 183.0 L243.6 230.0 L270.4 230.0 L297.2 183.0 L324.0 230.0 L350.8 230.0 L377.6 230.0 L404.4 230.0 L431.2 230.0 L458.0 230.0 L484.8 230.0 L511.6 230.0 L538.4 230.0 L565.2 230.0 L592.0 230.0 L618.8 230.0 L645.6 230.0 L672.4 230.0 L699.2 230.0 L726.0 230.0 L752.8 89.0 L779.6 230.0 L806.4 230.0 L833.2 230.0 L860.0 230.0" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <g fill="#38bdf8" stroke="#0d1117" stroke-width="2"><circle cx="136.4" cy="136.0" r="3.5"/><circle cx="163.2" cy="42.0" r="3.5"/><circle cx="216.8" cy="183.0" r="3.5"/><circle cx="297.2" cy="183.0" r="3.5"/><circle cx="752.8" cy="89.0" r="3.5"/></g>
+  <path d="M56.0 230.0 L82.8 230.0 L109.6 136.0 L136.4 42.0 L163.2 230.0 L190.0 183.0 L216.8 230.0 L243.6 230.0 L270.4 183.0 L297.2 230.0 L324.0 230.0 L350.8 230.0 L377.6 230.0 L404.4 230.0 L431.2 230.0 L458.0 230.0 L484.8 230.0 L511.6 230.0 L538.4 230.0 L565.2 230.0 L592.0 230.0 L618.8 230.0 L645.6 230.0 L672.4 230.0 L699.2 230.0 L726.0 89.0 L752.8 230.0 L779.6 230.0 L806.4 230.0 L833.2 136.0 L860.0 230.0 L860 230 L56 230 Z" fill="url(#fill)"/>
+    <path d="M56.0 230.0 L82.8 230.0 L109.6 136.0 L136.4 42.0 L163.2 230.0 L190.0 183.0 L216.8 230.0 L243.6 230.0 L270.4 183.0 L297.2 230.0 L324.0 230.0 L350.8 230.0 L377.6 230.0 L404.4 230.0 L431.2 230.0 L458.0 230.0 L484.8 230.0 L511.6 230.0 L538.4 230.0 L565.2 230.0 L592.0 230.0 L618.8 230.0 L645.6 230.0 L672.4 230.0 L699.2 230.0 L726.0 89.0 L752.8 230.0 L779.6 230.0 L806.4 230.0 L833.2 136.0 L860.0 230.0" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#38bdf8" stroke="#0d1117" stroke-width="2"><circle cx="109.6" cy="136.0" r="3.5"/><circle cx="136.4" cy="42.0" r="3.5"/><circle cx="190.0" cy="183.0" r="3.5"/><circle cx="270.4" cy="183.0" r="3.5"/><circle cx="726.0" cy="89.0" r="3.5"/><circle cx="833.2" cy="136.0" r="3.5"/></g>
     <g fill="#8b949e" font-family="Arial, sans-serif" font-size="12">
-    <text x="56.0" y="260">08-06</text><text x="190.0" y="260">08-11</text><text x="324.0" y="260">08-16</text><text x="458.0" y="260">08-21</text><text x="592.0" y="260">08-26</text><text x="726.0" y="260">08-31</text><text x="860.0" y="260">09-05</text>
+    <text x="56.0" y="260">08-07</text><text x="190.0" y="260">08-12</text><text x="324.0" y="260">08-17</text><text x="458.0" y="260">08-22</text><text x="592.0" y="260">08-27</text><text x="726.0" y="260">09-01</text><text x="860.0" y="260">09-06</text>
     <text x="18" y="226">0</text><text x="18" y="179">1</text><text x="18" y="132">2</text><text x="18" y="85">3</text><text x="18" y="38">4</text>
   </g>
 </svg>

@@ -34,14 +34,10 @@
         <li>🤝 Collaboration, learning, and open-source</li>
       </ul>
     </td>
-    <td width="50%" valign="top">
-      <h3>Live Signals</h3>
-      <p align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=RichardBijuJohn&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
-      </p>
-      <p align="center">
-        <img src="https://streak-stats.demolab.com?user=RichardBijuJohn&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-      </p>
+    <td width="50%" valign="top" align="center">
+      <h3>GitHub Streak</h3>
+      <p><em>Daily momentum.</em></p>
+      <img width="460" src="https://streak-stats.demolab.com?user=RichardBijuJohn&theme=gruvbox&hide_border=true&background=1d2021&stroke=3c3836&ring=f2cc60&fire=fe8019&currStreakLabel=f2cc60&sideLabels=a89984&currStreakNum=ebdbb2&sideNums=ebdbb2&dates=a89984&border_radius=12&card_width=460&date_format=M%20j%2C%20Y" alt="GitHub contribution streak" />
     </td>
   </tr>
 </table>
@@ -73,6 +69,11 @@
   <img src="https://img.shields.io/badge/AutoCAD-0696D7?style=for-the-badge&logo=autocad&logoColor=white" alt="AutoCAD" />
 </p>
 
+<h3 align="center">Programming Languages</h3>
+<p align="center">
+  <img width="420" src="./language-stats.svg" alt="Programming language usage statistics" />
+</p>
+
 <p align="center">
   <em>Building with curiosity, clarity, and a strong focus on user experience.</em>
 </p>
@@ -102,6 +103,10 @@
 </details>
 
 > “Build. Learn. Improve. Repeat.”
+
+<p align="center">
+  <img src="./footer-motion.svg" alt="Animated progress trail" />
+</p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:0f172a&height=120&section=footer&text=Thanks%20for%20visiting!%20Explore%2C%20connect%2C%20and%20build%20together.&fontSize=22&fontColor=ffffff&animation=twinkling" alt="Closing banner" />

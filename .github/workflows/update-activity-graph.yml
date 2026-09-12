@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Generate daily area graph
+      - name: Generate activity visuals
         env:
           GITHUB_USERNAME: RichardBijuJohn
         run: python scripts/update_activity_graph.py
@@ -29,4 +29,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update daily activity graph"
-          file_pattern: activity-graph.svg
+          file_pattern: activity-graph.svg,language-stats.svg

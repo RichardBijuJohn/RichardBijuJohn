@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+  <title id="title">Animated developer terminal</title>
+  <desc id="desc">A terminal window animates a sequence of build, test, and deploy commands.</desc>
+  <defs>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="progress" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="260" rx="20" fill="url(#shell)"/>
+  <rect x="28" y="28" width="844" height="204" rx="12" fill="#020617" stroke="#334155" stroke-width="2"/>
+  <path d="M28 68H872" stroke="#334155"/>
+  <circle cx="55" cy="48" r="6" fill="#fb7185"/>
+  <circle cx="77" cy="48" r="6" fill="#fbbf24"/>
+  <circle cx="99" cy="48" r="6" fill="#34d399"/>
+  <text x="450" y="53" fill="#64748b" font-family="monospace" font-size="12" text-anchor="middle">richard@portfolio: ~/build</text>
+  <g font-family="monospace" font-size="15">
+    <text x="58" y="101" fill="#38bdf8">$</text>
+    <text x="78" y="101" fill="#e2e8f0">npm run build</text>
+    <text x="78" y="126" fill="#64748b" opacity="0">compiling ideas into interfaces...
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.7;1" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <text x="58" y="158" fill="#38bdf8">$</text>
+    <text x="78" y="158" fill="#e2e8f0">npm test -- --watch</text>
+    <text x="78" y="183" fill="#34d399" opacity="0">✓ all systems learning
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.25;.4;.72;1" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <text x="58" y="215" fill="#38bdf8">$</text>
+    <text x="78" y="215" fill="#fbbf24">ship --next-iteration</text>
+    <rect x="282" y="201" width="9" height="18" fill="#fbbf24">
+      <animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="620" y="90" width="205" height="8" rx="4" fill="#1e293b"/>
+  <rect x="620" y="90" width="128" height="8" rx="4" fill="url(#progress)">
+    <animate attributeName="width" values="36;180;36" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="620" y="120" fill="#64748b" font-family="Arial, sans-serif" font-size="10" letter-spacing="1.5">BUILD STATUS</text>
+  <text x="620" y="145" fill="#f8fafc" font-family="Arial, sans-serif" font-size="18" font-weight="700">IN PROGRESS</text>
+  <text x="620" y="174" fill="#64748b" font-family="Arial, sans-serif" font-size="10">BUILD • TEST • IMPROVE</text>
+</svg>

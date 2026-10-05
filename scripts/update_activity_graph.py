@@ -5,6 +5,7 @@ from html import escape
 from urllib.request import Request, urlopen
 
 USERNAME = os.environ.get("GITHUB_USERNAME", "RichardBijuJohn")
+TOKEN = os.environ.get("GITHUB_TOKEN")
 OUTPUT = "activity-graph.svg"
 LANGUAGE_OUTPUT = "language-stats.svg"
 DAYS = 31
@@ -12,15 +13,22 @@ EVENTS_URL = f"https://api.github.com/users/{USERNAME}/events/public"
 REPOS_URL = f"https://api.github.com/users/{USERNAME}/repos"
 
 
+def github_headers(user_agent):
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": user_agent,
+    }
+    if TOKEN:
+        headers["Authorization"] = f"Bearer {TOKEN}"
+    return headers
+
+
 def get_activity():
     counts = {}
     for page in range(1, 4):
         request = Request(
             f"{EVENTS_URL}?per_page=100&page={page}",
-            headers={
-                "Accept": "application/vnd.github+json",
-                "User-Agent": "github-activity-graph-updater",
-            },
+            headers=github_headers("github-activity-graph-updater"),
         )
         with urlopen(request, timeout=30) as response:
             events = json.load(response)
@@ -50,10 +58,7 @@ def get_language_stats():
     for page in range(1, 4):
         request = Request(
             f"{REPOS_URL}?per_page=100&page={page}&type=owner&sort=updated",
-            headers={
-                "Accept": "application/vnd.github+json",
-                "User-Agent": "github-language-stats-updater",
-            },
+            headers=github_headers("github-language-stats-updater"),
         )
         with urlopen(request, timeout=30) as response:
             repositories = json.load(response)
@@ -65,10 +70,7 @@ def get_language_stats():
                 continue
             language_request = Request(
                 language_url,
-                headers={
-                    "Accept": "application/vnd.github+json",
-                    "User-Agent": "github-language-stats-updater",
-                },
+                headers=github_headers("github-language-stats-updater"),
             )
             with urlopen(language_request, timeout=30) as response:
                 languages = json.load(response)

@@ -23,6 +23,7 @@ jobs:
       - name: Generate activity visuals
         env:
           GITHUB_USERNAME: RichardBijuJohn
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_activity_graph.py
 
       - name: Commit updated graph

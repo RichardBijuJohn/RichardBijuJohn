@@ -37,7 +37,7 @@
     <td width="50%" valign="top" align="center">
       <h3>GitHub Streak</h3>
       <p><em>Daily momentum.</em></p>
-      <img width="460" src="https://streak-stats.demolab.com/?user=RichardBijuJohn&theme=gruvbox&hide_border=true&background=1d2021&stroke=3c3836&ring=f2cc60&fire=fe8019&currStreakLabel=f2cc60&sideLabels=a89984&currStreakNum=ebdbb2&sideNums=ebdbb2&dates=a89984&border_radius=12&card_width=460&date_format=M%20j%2C%20Y" alt="GitHub contribution streak" />
+      <img width="460" src="https://github-readme-streak-stats.herokuapp.com/?user=RichardBijuJohn&theme=gruvbox&hide_border=true&background=1d2021&stroke=3c3836&ring=f2cc60&fire=fe8019&currStreakLabel=f2cc60&sideLabels=a89984&currStreakNum=ebdbb2&sideNums=ebdbb2&dates=a89984&border_radius=12&card_width=460&date_format=M%20j%2C%20Y" alt="GitHub contribution streak" />
     </td>
   </tr>
 </table>

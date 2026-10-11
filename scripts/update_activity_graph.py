@@ -9,6 +9,7 @@ TOKEN = os.environ.get("GITHUB_TOKEN")
 OUTPUT = "activity-graph.svg"
 LANGUAGE_OUTPUT = "language-stats.svg"
 DAYS = 31
+GENERATED_AT = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 EVENTS_URL = f"https://api.github.com/users/{USERNAME}/events/public"
 REPOS_URL = f"https://api.github.com/users/{USERNAME}/repos"
 
@@ -65,17 +66,22 @@ def get_language_stats():
         if not repositories:
             break
         for repository in repositories:
+            if repository.get("fork"):
+                continue
             language_url = repository.get("languages_url")
             if not language_url:
                 continue
-            language_request = Request(
-                language_url,
-                headers=github_headers("github-language-stats-updater"),
-            )
-            with urlopen(language_request, timeout=30) as response:
-                languages = json.load(response)
-            for language, bytes_count in languages.items():
-                totals[language] = totals.get(language, 0) + bytes_count
+            try:
+                language_request = Request(
+                    language_url,
+                    headers=github_headers("github-language-stats-updater"),
+                )
+                with urlopen(language_request, timeout=30) as response:
+                    languages = json.load(response)
+                for language, bytes_count in languages.items():
+                    totals[language] = totals.get(language, 0) + bytes_count
+            except Exception:
+                continue
     return sorted(totals.items(), key=lambda item: item[1], reverse=True)[:6]
 
 
@@ -103,7 +109,7 @@ def make_language_svg(languages):
   <text x="56" y="52" fill="#64748b" font-family="Arial, sans-serif" font-size="11">PUBLIC REPOSITORIES / CODE DISTRIBUTION</text>
   {''.join(rows)}
   <path d="M56 275H744" stroke="#273449"/>
-  <text x="56" y="290" fill="#64748b" font-family="Arial, sans-serif" font-size="10">Updated daily from GitHub repository data</text>
+  <text x="56" y="290" fill="#64748b" font-family="Arial, sans-serif" font-size="10">Updated {GENERATED_AT} from GitHub repository data</text>
 </svg>
 '''
 

@@ -2,8 +2,16 @@ name: Update daily activity graph
 
 on:
   schedule:
-    - cron: "17 2 * * *"
+    - cron: "17 */6 * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types: [update-stats]
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/**"
+      - ".github/workflows/**"
 
 permissions:
   contents: write
@@ -30,4 +38,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update daily activity graph"
-          file_pattern: activity-graph.svg,language-stats.svg
+          file_pattern: "activity-graph.svg language-stats.svg"
